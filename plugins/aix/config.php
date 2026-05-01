@@ -1,0 +1,17 @@
+<?php
+defined('GASCORE') || die();
+
+return (object) [
+    'plugin_id' => 'aix',
+    'name' => 'AIX - Text & Images AI Assistant',
+    'description' => 'This plugin implements the OpenAI API system for content writing & image generation.',
+    'version' => '6.0.0',
+    'url' => 'https://altumco.de/aix-plugin',
+    'author' => 'GAS Open Source',
+    'author_url' => 'https://github.com/rikhza/gas-url-shorter/',
+    'status' => 'inexistent',
+    'actions'=> true,
+    'settings_url' => url('admin/settings/aix'),
+    'avatar_style' => 'background: #4CA1AF;background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF); background: linear-gradient(to right, #C4E0E5, #4CA1AF);',
+    'icon' => '🤖',
+];

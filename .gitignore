@@ -1,0 +1,6 @@
+.DS_Store
+.env
+node_modules/
+docker/mysql/
+uploads/logs/*.log
+app/includes/GeoLite2-City.mmdb
